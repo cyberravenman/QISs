@@ -7,4 +7,6 @@ Deployment of the environment for comfortable work:
 - The following modules are available in the virtual environment: pip3: IPython, PyQt5, qiskit, qiskit-ibm-runtime, tabulate;
 - The API token is required for the solution to work, you can find it on https://quantum.ibm.com/ in your account profile.
 
+But to quickly launch the software solution, you need to run the file 'run.sh', which is located in the directory of each version of the program.
+
 We wish you productive work!
