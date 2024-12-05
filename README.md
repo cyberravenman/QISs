@@ -4,7 +4,7 @@ This project is the implementation of a user-friendly graphical interface for in
 Various versions of the project are presented in this repository. Each version is located in the corresponding directory.
 
 Deployment of the environment for comfortable work:
-- The following modules are available in the virtual environment: pip3: IPython, PyQt5, qiskit, qiskit-ibm-runtime;
+- The following modules are available in the virtual environment: pip3: IPython, PyQt5, qiskit, qiskit-ibm-runtime, tabulate;
 - The API token is required for the solution to work, you can find it on https://quantum.ibm.com/ in your account profile.
 
 We wish you productive work!
