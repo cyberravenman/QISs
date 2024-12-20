@@ -36,4 +36,4 @@ else
 fi
 rm -rf -
 echo '[+]: Start Software! Good luck!'
-python3 ./QIS_Benchmark_v.0.1.py
+python3 QIS_Benchmark_v.0.1.py
