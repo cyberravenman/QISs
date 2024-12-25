@@ -11,29 +11,54 @@ echo '  \$$ $$ $$|   $$ \ \$$    $$|       $$  '
 echo '   \$$$$$$\ \$$$$$$  \$$$$$$  \$$$$$$$   '    
 echo '       \$$$                              '
 echo '                         launcher v.0.3.6'
+echo 'Che_Guevara_22 -_-     CyberRavenMan  *_*'
 
-if [ -d "$PWD/.QISs_v.0.3.6-venv" ]; then
-	echo '[+]: Activate Python virtual env'
-	source $PWD/.QISs_v.0.3.6-venv/bin/activate &>-
+if [[ $1 == "del_venv" ]]; then
+	rm -rf $PWD/QISs_v.0.3.6-venv
+	printf '\n[+]: Virtual environment has been deleted.\n\n'
+	exit
 else
-	echo '[+]: Install Python virtual env'
+	printf '\n[!]: If You need to delete the old virtual environment, then run "./run del_venv"\n\n'
+fi
+
+if [ -d "$PWD/QISs_v.0.3.6-venv" ]; then
+	echo '[*]: Activate Python virtual env..'
+	source $PWD/QISs_v.0.3.6-venv/bin/activate &>-
+	echo '[+]: Done'
+else
+	echo '[*]: Install Python virtual env..'
 	pip3 install virtualenv --break-system-packages &>-
-	echo '[+]: Init Python virtual env'
-	virtualenv .QISs_v.0.3.6-venv &>-
-	source $PWD/.QISs_v.0.3.6-venv/bin/activate &>-
-	echo '[+]: Install module "IPython"'
+	echo '[+]: Done'
+	
+	echo '[*]: Init Python virtual env..'
+	virtualenv QISs_v.0.3.6-venv &>-
+	source $PWD/QISs_v.0.3.6-venv/bin/activate &>-
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "IPython"..'
 	pip3 install IPython &>-
-	echo '[+]: Install module "PyQt5"'
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "PyQt5"..'
 	pip3 install PyQt5 &>-
-	echo '[+]: Install module "qiskit"'
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "qiskit"..'
 	pip3 install qiskit &>-
-	echo '[+]: Install module "qiskit-ibm-runtime"'
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "qiskit-ibm-runtime"..'
 	pip3 install qiskit-ibm-runtime &>-
-	echo '[+]: Install module "tabulate"'
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "tabulate"..'
 	pip3 install tabulate &>-
-	echo '[+]: Install module "matplotlib"'
+	echo '[+]: Done'
+	
+	echo '[*]: Install module "matplotlib"..'
 	pip3 install matplotlib &>-
+	echo '[+]: Done'
 fi
 rm -rf -
-echo '[+]: Start Software! Good luck!'
+printf '\n[+]: Start Software! Good luck!\n\n'
 python3 QIS_Benchmark_v.0.3.6.py
