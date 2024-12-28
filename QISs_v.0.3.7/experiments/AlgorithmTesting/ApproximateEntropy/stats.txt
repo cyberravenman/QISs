@@ -1,0 +1,17 @@
+			APPROXIMATE ENTROPY TEST
+		--------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		--------------------------------------------
+		(a) m (block length)    = 10
+		(b) n (sequence length) = 12600
+		(c) Chi^2               = 1115.563523
+		(d) Phi(m)	       = -6.887870
+		(e) Phi(m+1)	       = -7.536749
+		(f) ApEn                = 0.648879
+		(g) Log(2)              = 0.693147
+		--------------------------------------------
+		Note: The blockSize = 10 exceeds recommended value of 8
+		Results are inaccurate!
+		--------------------------------------------
+SUCCESS		p_value = 0.023820
+

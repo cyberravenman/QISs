@@ -1,7 +1,5 @@
 #! /bin/bash
 DATE=$(date '+%Y-%m-%d_%H:%M:%S')
-# NAME_DIR="NIST/ResultTest_"
-# RESULT_DIR="$NAME_DIR$DATE"
 STR_TMP="/Documents/QISs/NIST/ResultTest_"
 RESULT_DIR="$HOME$STR_TMP$DATE"
 if [ $# -ne 6 ]; then
@@ -11,7 +9,6 @@ fi
 
 if [ -d $RESULT_DIR ]; then
 	echo "Результат тестирования  в папке: '$RESULT_DIR'."
-	#exit
 else
 	echo "Результат тестирования в папке: '$RESULT_DIR'."
 	mkdir -p $RESULT_DIR

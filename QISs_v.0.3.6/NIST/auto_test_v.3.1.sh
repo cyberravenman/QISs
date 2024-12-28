@@ -9,7 +9,6 @@ fi
 
 if [ -d $RESULT_DIR ]; then
 	echo "Результат тестирования  в папке: '$RESULT_DIR'."
-	#exit
 else
 	echo "Результат тестирования в папке: '$RESULT_DIR'."
 	mkdir -p $RESULT_DIR
