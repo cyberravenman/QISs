@@ -8,7 +8,7 @@ Deployment of the environment for comfortable work:
 - The API token is required for the solution to work, you can find it on https://quantum.ibm.com/ in your account profile.
 - This Software should only run on Unix-like OS
 
-For program to work correctly, it is required python3.9 and pip3. Software was testing on Ubuntu 18.
+For program to work correctly, it is required python3.9 and pip3. Software was testing on Ubuntu 18; Ubuntu 20.04.6 and Kali_Linux 2024.4.
 
 But to quickly launch the software solution, you need to run the file 'run.sh', which is located in the directory of each version of the program.
 
