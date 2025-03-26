@@ -1,0 +1,40 @@
+I(exp_T1(350, T1_us) * Readout_assignment_error_)                          2268.389059
+I(exp_T1(350, T1_us) * Prob_meas1_prep0_)                                 19478.284375
+I(exp_T1(350, T1_us) * Readout_assignment_error_ * Prob_meas1_prep0_)   -121003.449013
+I(Readout_assignment_error_ * Prob_meas1_prep0_)                         106321.850459
+dtype: float64
+
+Коэффициент детерминации R2: 0.9552744093018911
+
+Стандартное отклонение: 499.80502702618986
+Среднее значение: 537.4488188976378
+Погрешность: 92%
+
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                    One   R-squared (uncentered):                   0.955
+Model:                            OLS   Adj. R-squared (uncentered):              0.954
+Method:                 Least Squares   F-statistic:                              656.8
+Date:                 Ср, 26 мар 2025   Prob (F-statistic):                    6.10e-82
+Time:                        10:47:04   Log-Likelihood:                         -882.16
+No. Observations:                 127   AIC:                                      1772.
+Df Residuals:                     123   BIC:                                      1784.
+Df Model:                           4                                                  
+Covariance Type:            nonrobust                                                  
+=========================================================================================================================================
+                                                                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------
+I(exp_T1(350, T1_us) * Readout_assignment_error_)                      2268.3891    686.639      3.304      0.001     909.230    3627.548
+I(exp_T1(350, T1_us) * Prob_meas1_prep0_)                              1.948e+04   1286.594     15.139      0.000    1.69e+04     2.2e+04
+I(exp_T1(350, T1_us) * Readout_assignment_error_ * Prob_meas1_prep0_)  -1.21e+05   1.48e+04     -8.150      0.000    -1.5e+05   -9.16e+04
+I(Readout_assignment_error_ * Prob_meas1_prep0_)                       1.063e+05   1.21e+04      8.812      0.000    8.24e+04     1.3e+05
+==============================================================================
+Omnibus:                      154.907   Durbin-Watson:                   1.849
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6836.711
+Skew:                           4.218   Prob(JB):                         0.00
+Kurtosis:                      37.940   Cond. No.                         69.7
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
