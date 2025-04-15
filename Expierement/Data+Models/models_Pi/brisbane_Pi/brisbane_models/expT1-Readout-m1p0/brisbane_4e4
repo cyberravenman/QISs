@@ -1,0 +1,39 @@
+Intercept                    0.962784
+exp_T1(350, T1_us)           0.026859
+Readout_assignment_error_   -0.842746
+Prob_meas1_prep0_           -0.800742
+dtype: float64
+
+Коэффициент детерминации R2: 0.25075092749157035
+
+Стандартное отклонение: 0.08146647557080272
+Среднее значение: 0.9413579328103805
+Погрешность: 8%
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    p_i   R-squared:                       0.251
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     27.89
+Date:                 Чт, 10 апр 2025   Prob (F-statistic):           1.37e-15
+Time:                        14:24:30   Log-Likelihood:                 278.53
+No. Observations:                 254   AIC:                            -549.1
+Df Residuals:                     250   BIC:                            -534.9
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     0.9628      0.042     22.906      0.000       0.880       1.046
+exp_T1(350, T1_us)            0.0269      0.052      0.515      0.607      -0.076       0.130
+Readout_assignment_error_    -0.8427      0.390     -2.162      0.032      -1.611      -0.075
+Prob_meas1_prep0_            -0.8007      0.317     -2.526      0.012      -1.425      -0.177
+==============================================================================
+Omnibus:                      304.895   Durbin-Watson:                   1.746
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            23551.066
+Skew:                          -5.002   Prob(JB):                         0.00
+Kurtosis:                      49.100   Cond. No.                         122.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

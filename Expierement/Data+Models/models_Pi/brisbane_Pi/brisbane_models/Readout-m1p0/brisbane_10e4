@@ -1,0 +1,37 @@
+Intercept                    0.969878
+Readout_assignment_error_   -1.244077
+Prob_meas1_prep0_           -0.934752
+dtype: float64
+
+Коэффициент детерминации R2: 0.2688131561478688
+
+Стандартное отклонение: 0.10121027747196101
+Среднее значение: 0.9133597785153954
+Погрешность: 11%
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    p_i   R-squared:                       0.269
+Model:                            OLS   Adj. R-squared:                  0.263
+Method:                 Least Squares   F-statistic:                     46.14
+Date:                 Чт, 10 апр 2025   Prob (F-statistic):           8.62e-18
+Time:                        14:38:26   Log-Likelihood:                 222.90
+No. Observations:                 254   AIC:                            -439.8
+Df Residuals:                     251   BIC:                            -429.2
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     0.9699      0.009    110.185      0.000       0.953       0.987
+Readout_assignment_error_    -1.2441      0.482     -2.583      0.010      -2.193      -0.296
+Prob_meas1_prep0_            -0.9348      0.391     -2.392      0.018      -1.705      -0.165
+==============================================================================
+Omnibus:                      171.418   Durbin-Watson:                   1.609
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2787.669
+Skew:                          -2.393   Prob(JB):                         0.00
+Kurtosis:                      18.508   Cond. No.                         94.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

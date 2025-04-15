@@ -1,0 +1,41 @@
+Intercept                                                   3.435063e+02
+Readout_assignment_error_                                   1.765333e+04
+Readout_assignment_error_:x_sx_error_                      -7.136917e+07
+exp_T1(350, T1_us):Readout_assignment_error_:x_sx_error_    1.044189e+08
+dtype: float64
+
+Коэффициент детерминации R2: 0.8058930776548882
+
+Стандартное отклонение: 1029.5124146895946
+Среднее значение: 1041.976377952756
+Погрешность: 98%
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    abs   R-squared:                       0.806
+Model:                            OLS   Adj. R-squared:                  0.804
+Method:                 Least Squares   F-statistic:                     346.0
+Date:                 Чт, 10 апр 2025   Prob (F-statistic):           1.15e-88
+Time:                        17:15:09   Log-Likelihood:                -2120.4
+No. Observations:                 254   AIC:                             4249.
+Df Residuals:                     250   BIC:                             4263.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+============================================================================================================================
+                                                               coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------
+Intercept                                                  343.5063     89.797      3.825      0.000     166.652     520.361
+Readout_assignment_error_                                 1.765e+04   2643.264      6.679      0.000    1.24e+04    2.29e+04
+Readout_assignment_error_:x_sx_error_                    -7.137e+07   1.22e+07     -5.828      0.000   -9.55e+07   -4.73e+07
+exp_T1(350, T1_us):Readout_assignment_error_:x_sx_error_  1.044e+08   1.74e+07      6.012      0.000    7.02e+07    1.39e+08
+==============================================================================
+Omnibus:                      193.812   Durbin-Watson:                   1.581
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4737.099
+Skew:                           2.692   Prob(JB):                         0.00
+Kurtosis:                      23.460   Cond. No.                     3.29e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.29e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
